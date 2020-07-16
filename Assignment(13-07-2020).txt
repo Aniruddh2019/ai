@@ -1,0 +1,22 @@
+                                                                                    Assignment 40 13-7-2020
+
+(Q1) What is Transfer Learning?
+(A)Transfer learning makes use of the knowledge gained while solving one problem and applying it to a different but related problem.
+   For example, knowledge gained while learning to recognize cars can be used to some extent to recognize trucks.
+(Q2) What is pretrained model?
+(A)In computer vision, transfer learning is usually expressed through the use of pre-trained models. 
+   A pre-trained model is a model that is trained on a large benchmark dataset to solve a problem similar to the one that we want to solve.
+(Q3)What is imagenet database? How many images and classes are there in that data?
+(A)ImageNet is a large dataset of annotated photographs intended for computer vision research.
+   The goal of developing the dataset was to provide a resource to promote the research and development of improved methods for computer vision.
+   Based on statistics about the dataset recorded on ImageNet,
+   there are a little more than 14 million images in the dataset, a little more than 21 thousand groups or classes (synsets), 
+   and a little more than 1 million images that have bounding box annotations (e.g. boxes around identified objects in the images).
+(Q4)What are the different pretrained models available on imagenet?
+(A) It has the following models ( as of Keras version 2.1.2 ):
+   1. VGG16,
+   2. InceptionV3,
+   3. ResNet,
+   4. MobileNet,
+   5. Xception,
+   6. InceptionResNetV2
